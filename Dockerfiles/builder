@@ -51,4 +51,6 @@ RUN set -eux \
 		bcrypt \
 		cffi \
 		cryptography \
-		pycparser
+		pycparser \
+		pywinrm \
+		pywinrm[credssp]
